@@ -1,0 +1,8 @@
+<!-- dialog_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp" />
+    <gradient
+        android:startColor="@color/colorSecondary"
+        android:endColor="@color/colorBackground"
+        android:angle="270" />
+</shape>

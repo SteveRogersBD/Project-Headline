@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsPaper" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- You can optionally customize secondary and background colors as well -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <!-- Theme that inherits from the base theme -->
+    <style name="Theme.NewsPaper" parent="Base.Theme.NewsPaper" />
+</resources>
